@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Takes two single bits as input and outputs three signals to indicate if the first bit is less than, equal to, or greater than the second bit
 
 ## How to test
 
-Explain how to use your project
+Apply all four possible input combinations ((A,B) are (0,0); (0,1); (1,0); (1,1)) and verify that the three outputs ((A>B), (A<B), (A=B)) match the expected outputs
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+3 LEDs
